@@ -1,5 +1,5 @@
 body {
-  background-color: lightBlue;
+  background-color: rgb(210, 210, 128);
 }
 
 .container {
@@ -32,6 +32,27 @@ body {
 }
 
 .selected {
+  background-color: green;
+  color: white;
+}
+
+.diet-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.diet-option {
+  font-size: 24px;
+  padding: 20px;
+  margin: 0 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+
+.diet-option.selected {
   background-color: green;
   color: white;
 }
