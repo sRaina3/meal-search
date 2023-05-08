@@ -14,3 +14,24 @@ body {
   font-size: 36px;
   text-align: center;
 }
+
+.options-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.option {
+  font-size: 24px;
+  padding: 20px;
+  margin: 0 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+
+.selected {
+  background-color: green;
+  color: white;
+}
