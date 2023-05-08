@@ -18,6 +18,7 @@ const App = () => {
     <div className='container'>
       <img src="/Logo-Backgroundless.png" alt="Logo" className="logo" />
       <h1 className='title'>What would you like to Order?</h1>
+      {/* Meal Type Options */}
       <div className="options-container">
         <button className={`option ${mealType === 'Breakfast' ? 'selected' : ''}`} 
           onClick={handleOptionClick}>Breakfast</button>
@@ -26,6 +27,7 @@ const App = () => {
         <button className={`option ${mealType === 'Dinner' ? 'selected' : ''}`} 
           onClick={handleOptionClick}>Dinner</button>
       </div>
+      {/* Diet Type Options */}
       <div className="diet-container">
         <button className={`diet-option ${dietType === 'vegetarian' ? 'selected' : ''}`} 
           onClick={() => handleDietTypeClick('vegetarian')}>Vegetarian</button>
