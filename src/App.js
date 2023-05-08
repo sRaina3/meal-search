@@ -16,6 +16,7 @@ const App = () => {
 
   return (
     <div className='container'>
+      <img src="/Logo-Backgroundless.png" alt="Logo" className="logo" />
       <h1 className='title'>What would you like to Order?</h1>
       <div className="options-container">
         <button className={`option ${mealType === 'Breakfast' ? 'selected' : ''}`} 

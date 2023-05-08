@@ -13,6 +13,7 @@ body {
 .title {
   font-size: 36px;
   text-align: center;
+  margin-top: -20px;
 }
 
 .options-container {
@@ -55,4 +56,9 @@ body {
 .diet-option.selected {
   background-color: green;
   color: white;
+}
+
+.logo {
+  width: 450px;
+  height: auto; /* maintain aspect ratio */
 }
